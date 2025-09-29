@@ -1,0 +1,67 @@
+/* style.css - shared stylesheet for all three pages */
+
+/* Body - font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header - background color */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+/* Navigation - background color */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Navigation links inside nav */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Main content - background color and font size */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Footer - background color and text color */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* List items - display and width */
+li {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+}
+
+/* H1 - text alignment, font family, color */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Paragraph - line height */
+p {
+    line-height: 1.6;
+}
